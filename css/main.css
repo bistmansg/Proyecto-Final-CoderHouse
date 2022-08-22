@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+h1{
+    margin-bottom: 10px;
+    font-size: 80px;
+    color: rgb(135, 132, 132);
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+    background: linear-gradient(rgb(270, 167, 161), rgb(191, 191, 250))
+}
+
+h2{ font-size: 40px;
+    text-align: left;
+    font-family:'Montserrat', sans-serif;
+}
+
+.introduccion{
+    font-family:'montserrat', sans-serif;
+    font-weight: bolder;
+    margin: 10px 0px 0px 0px;
+    
+
+}
+
+body{
+    background-color: rgb(191, 191, 250);
+    background-image: 
+}
+
+.caja{
+        background-image: url(../images/bazar.jpg);
+        background-position: 50px;
+        background-size: auto;
+       }
+.parrafo{
+    margin: 0px 0px 1000px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.divImg{
+    margin: 1rem 1rem;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+}
+
+.body{
+    background-color:  rgb(191, 191, 250);
+}
+
+.video{
+    border-style: solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+nav ul li{
+    background-color: rgb(242, 115, 115);
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    border: 5px  solid grey;
+    font-family:'Montserrat', sans-serif;
+    font-weight: bold
+
+}
+
+.HeaderNav{
+    font-size: 20px;
+    font-family:'Montserrat', sans-serif;
+    font-weight: bold;
+    justify-content: space-around;
+    text-align: center ;
+    padding: 1rem;
+    border-bottom: 3px solid rgb(204, 167, 167);
+    position: sticky;
+    top: 0%;
+}
+
+.imgbazar{
+    margin: 0px auto;
+    padding: 0px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    max-width: 100%;
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-auto-rows: minmax(200px, auto);
+    gap: 20px;
+    padding: 20px;
+    grid-auto-flow: dense;
+  }
+
+
+.grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 4px;
+    transition: transform 0.4s ease-in-out;
+  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .grid-item:hover {
+    filter: opacity(0.9);
+    transform: scale(1.1);
+  }
+
+  
